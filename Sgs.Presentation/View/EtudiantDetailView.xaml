@@ -23,6 +23,7 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
         <!-- Nom Etudiant-->
@@ -107,5 +108,7 @@
                 </Binding>
             </TextBox.Text>
         </TextBox>
+        <!-- Button Save -->
+        <Button Content="SAVE" Grid.Row="8" Grid.Column="4" Margin="5" Command="{Binding Save}"></Button>
     </Grid>
 </UserControl>

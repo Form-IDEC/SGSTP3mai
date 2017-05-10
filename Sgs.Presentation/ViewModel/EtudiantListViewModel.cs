@@ -11,7 +11,7 @@ using Sgs.Persistance.EntityModel;
 
 namespace Sgs.Presentation.ViewModel
 {
-    public class EtudiantListViewModel
+    public class EtudiantListViewModel :BaseViewModel
     {
         private ObservableCollection<tbEtudiants> _etudiants;
 
@@ -27,7 +27,7 @@ namespace Sgs.Presentation.ViewModel
            
           
         }
-
+        
         public ObservableCollection<tbEtudiants> Etudiants
         {
             get { return _etudiants; }
